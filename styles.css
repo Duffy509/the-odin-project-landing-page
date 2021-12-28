@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    margin: 0;
+}
+
+.top-container,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.hero-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.second-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.third-container {
+    background: #E5E7EB;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-sub-container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-sign-up {
+    border-style: none;
+}
+
+.button-sign-up {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.inspiring-quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.inspring-quote-signature {
+    font-style: bold;
+}
