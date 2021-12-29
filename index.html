@@ -3,6 +3,8 @@
     <head>
         <title>Odin Landing Page Project</title>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -12,9 +14,9 @@
             <div class="header-text">Header Logo</div>
             <div class="header-links">
                 <ul>
-                    <li><a href="google.com">header link one</a></li>
-                    <li><a href="google.com">header link two</a></li>
-                    <li><a href="google.com">header link three</a></li>
+                    <li class="inline"><a href="google.com">header link one</a></li>
+                    <li class="inline"><a href="google.com">header link two</a></li>
+                    <li class="inline"><a href="google.com">header link three</a></li>
                 </ul>
             </div>
        </div>
@@ -25,16 +27,29 @@
             <img src="images/pexels-jozef-fehér-1633522.jpg" alt="Hero text picture of dogs">
         </div>
     </div>    
+    <div class="second-container-title">Some random information.</div>
     <div class="second-container">
-        <div class="second-container-title">Some random information.</div>
-        <img src="images/pexels-pixabay-39317.jpg" alt="Picture of one dog.">
+        
+        <div class="info">
+            <img src="images/pexels-pixabay-39317.jpg" alt="Picture of one dog.">
             <div class="under-image-text">This is a picture of one dog.</div>
-        <img src="images/pexels-bin-ziegler-1364729.jpg" alt="Picture of two dogs.">
+        </div>
+
+        <div class="info">
+            <img src="images/pexels-bin-ziegler-1364729.jpg" alt="Picture of two dogs.">
             <div class="under-image-text">This is a picture of two dogs.</div>
-        <img src="images/pexels-caio-69371.jpg" alt="Picture of three dogs.">
+        </div>   
+
+        <div class="info">
+            <img src="images/pexels-caio-69371.jpg" alt="Picture of three dogs.">
             <div class="under-image-text">This is a picture of three dogs.</div>
-        <img src="images/pexels-goochie-poochie-grooming-3299905.jpg" alt="Picture of four dogs">
+        </div>
+
+        <div class="info">
+            <img src="images/pexels-goochie-poochie-grooming-3299905.jpg" alt="Picture of four dogs">
             <div class="under-image-text">This is a picture of four dogs.</div>
+        </div>
+
     </div>
     <div class="third-container">
         <div class="inspiring-quote-text">
@@ -51,8 +66,12 @@
         </div>
     </div>
     <div class="footer">
-        <div class="footer-text">Copyright <span>&copy;</span> The Odin Project 2021</div>
-        <div class="credit">All images courtesy of <a href="http://www.pexels.com">Pexels</a></div>
+        <div class="footer-text">
+            <ul>
+                <li>Copyright <span>&copy;</span> The Odin Project 2021</li>
+                <li>All images courtesy of <a href="http://www.pexels.com">Pexels</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 

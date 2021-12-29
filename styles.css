@@ -10,6 +10,13 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .header-text {
     font-size: 24px;
     color: #F9FAF8
@@ -31,23 +38,48 @@ body {
     color: #E5E7EB;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-li, a {
+li {
     list-style: none;
     text-decoration: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.header-links {
     display: inline;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0px;
+}
+
+.second-container-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center; 
+    padding: 25px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 100px;
 }
 
 .second-container img {
     width: 100px;
     height: 100px;
 }
+
+.info {
+    max-width: 100px;
+    padding: 25px;
+}
+
 
 .third-container {
     background: #E5E7EB;
@@ -57,12 +89,15 @@ li, a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: start;
+    margin: 20px;
 }
 
 .call-to-action-sub-container {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
+    padding: 50px;
 }
 
 button {
@@ -90,4 +125,21 @@ button {
 
 .inspring-quote-signature {
     font-style: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
